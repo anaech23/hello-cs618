@@ -1,3 +1,5 @@
+import dotenv from "dotenv";
+dotenv.config();
 import mongoose from "mongoose";
 export function initDatabase() {
   const DATABASE_URL = process.env.DATABASE_URL;
